@@ -34,9 +34,11 @@ const handle = async (event: any) => {
         );
       } catch (e) {
         await bot.sendMessage(group.id, {
-          text: `We got an exception when trying to render the Adaptive Card: [code]${
-            (e as RestException).response.data
-          }[/code]`,
+          text: `We got an exception when trying to render the Adaptive Card: [code]${JSON.stringify(
+            (e as RestException).response.data,
+            null,
+            2
+          )}[/code]`,
         });
         (e as RestException).message;
       }
