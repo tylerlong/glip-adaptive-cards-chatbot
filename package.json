@@ -5,6 +5,7 @@
     "deploy": "yarn build && sls deploy"
   },
   "dependencies": {
+    "@rc-ex/core": "^0.8.7",
     "axios": "^0.21.1",
     "pg": "^8.7.1",
     "ringcentral-chatbot": "^1.8.12",

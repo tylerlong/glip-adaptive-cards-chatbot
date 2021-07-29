@@ -153,7 +153,7 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@rc-ex/core@^0.8.3":
+"@rc-ex/core@^0.8.3", "@rc-ex/core@^0.8.7":
   version "0.8.7"
   resolved "https://registry.yarnpkg.com/@rc-ex/core/-/core-0.8.7.tgz#d1ad39ac6731b45e73a7a04065279e460604d29c"
   integrity sha512-J93qmxsWjRGRtJ3r7m0MiJmILJPgapkhOmYHIM6zJnO5waEpJ4JpcWPqB39faOyAkPU0kMJFDZeGw/93qfMgfA==
