@@ -28,10 +28,7 @@ const handle = async (event: any) => {
         return;
       }
       try {
-        await bot.rc.post(
-          `/restapi/v1.0/glip/chats/${group.id}/adaptive-cards`,
-          obj
-        );
+        await bot.sendAdaptiveCard(group.id, obj);
       } catch (e) {
         await bot.sendMessage(group.id, {
           text: `We got an exception when trying to render the Adaptive Card: [code]${JSON.stringify(

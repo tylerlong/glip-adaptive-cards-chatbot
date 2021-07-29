@@ -153,7 +153,7 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@rc-ex/core@^0.8.3", "@rc-ex/core@^0.8.7":
+"@rc-ex/core@^0.8.7":
   version "0.8.7"
   resolved "https://registry.yarnpkg.com/@rc-ex/core/-/core-0.8.7.tgz#d1ad39ac6731b45e73a7a04065279e460604d29c"
   integrity sha512-J93qmxsWjRGRtJ3r7m0MiJmILJPgapkhOmYHIM6zJnO5waEpJ4JpcWPqB39faOyAkPU0kMJFDZeGw/93qfMgfA==
@@ -482,7 +482,7 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
-"@types/express@^4.17.12":
+"@types/express@^4.17.13":
   version "4.17.13"
   resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.13.tgz#a76e2995728999bab51a33fabce1d705a3709034"
   integrity sha512-6bSZTPaTIACxn48l50SR+axgrqm6qXFIxrdAKaG6PaJk3+zuUr35hBlgT7vOmJcum+OEaIBLtHV/qloEAFITeA==
@@ -529,7 +529,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/morgan@^1.9.2":
+"@types/morgan@^1.9.3":
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@types/morgan/-/morgan-1.9.3.tgz#ae04180dff02c437312bc0cfb1e2960086b2f540"
   integrity sha512-BiLcfVqGBZCyNCnCH3F4o2GmDLrpy0HeBVnNlyZG4fo88ZiE9SoiBe3C+2ezuwbjlEyT+PDZ17//TAlRxAn75Q==
@@ -608,7 +608,7 @@
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-4.0.1.tgz#8f80dd965ad81f3e1bc26d6f5c727e132721ff40"
   integrity sha512-Y0K95ThC3esLEYD6ZuqNek29lNX2EM1qxV8y2FTLUB0ff5wWrk7az+mLrnNFUnaXcgKye22+sFBRXOgpPILZNg==
 
-"@types/validator@^13.1.4":
+"@types/validator@^13.6.3":
   version "13.6.3"
   resolved "https://registry.yarnpkg.com/@types/validator/-/validator-13.6.3.tgz#31ca2e997bf13a0fffca30a25747d5b9f7dbb7de"
   integrity sha512-fWG42pMJOL4jKsDDZZREnXLjc3UE0R8LOJfARWYg6U966rxDT7TYejYzLnUF5cvSObGg34nd0+H2wHHU5Omdfw==
@@ -933,10 +933,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-sdk@^2.936.0, aws-sdk@^2.951.0:
-  version "2.956.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.956.0.tgz#fbc3900f413bb1a7a48f586587a8edea76bca615"
-  integrity sha512-vSzL66tjeRSBPnLR2Pkx4qS7SPqADT7K9QBjWdMhVd9BF5spyMvJ9hReIEShILp3hq99sHI+MvO+uTUm5s023g==
+aws-sdk@^2.951.0, aws-sdk@^2.957.0:
+  version "2.957.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.957.0.tgz#579fbb5310f918ebcba6b968e0c43903180bad35"
+  integrity sha512-TtRv/ebZL7gWgAW8XGlRizs5xhyzlDt2KbrxoPcHcxPTH8KHlbEyOmAXafyB7K/Jf3En5TDdJN1daJ4idSKWSg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -4808,25 +4808,25 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-ringcentral-chatbot@^1.8.12:
-  version "1.8.12"
-  resolved "https://registry.yarnpkg.com/ringcentral-chatbot/-/ringcentral-chatbot-1.8.12.tgz#b014f5490a6b7e8160a655dcdb0b90e2f41760d0"
-  integrity sha512-esvp6NVvvNY3Tic99Cd5M8L8DKfOgJozeB8+Q7OmrDLUh7tQPqE7scMP5oMbCNVJ05qbf4QqI5vc4gQ8gqn7Vw==
+ringcentral-chatbot@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/ringcentral-chatbot/-/ringcentral-chatbot-1.9.0.tgz#d88c4013dcdd1c19887594e6eeae900846e0e1de"
+  integrity sha512-fUauPmgTUz6+B4nK/CoCfNc0+QDd5Mt1Tl2t9XGhC+0vUSdmyjsHO33/QPS8A6B4Ynt2S4VZyxLJF1/gkgScww==
   dependencies:
-    "@rc-ex/core" "^0.8.3"
-    "@types/express" "^4.17.12"
-    "@types/morgan" "^1.9.2"
+    "@rc-ex/core" "^0.8.7"
+    "@types/express" "^4.17.13"
+    "@types/morgan" "^1.9.3"
     "@types/supertest" "^2.0.11"
-    "@types/validator" "^13.1.4"
-    aws-sdk "^2.936.0"
+    "@types/validator" "^13.6.3"
+    aws-sdk "^2.957.0"
     axios "^0.21.1"
     express "^4.17.1"
     express-basic-auth "^1.2.0"
     form-data "^4.0.0"
     moment "^2.29.1"
     morgan "^1.10.0"
-    sequelize "^6.6.4"
-    supertest "^6.1.3"
+    sequelize "^6.6.5"
+    supertest "^6.1.4"
     wait-for-async "^0.5.0"
 
 run-async@^2.2.0, run-async@^2.4.0:
@@ -4935,7 +4935,7 @@ sequelize-pool@^6.0.0:
   resolved "https://registry.yarnpkg.com/sequelize-pool/-/sequelize-pool-6.1.0.tgz#caaa0c1e324d3c2c3a399fed2c7998970925d668"
   integrity sha512-4YwEw3ZgK/tY/so+GfnSgXkdwIJJ1I32uZJztIEgZeAO6HMgj64OzySbWLgxj+tXhZCJnzRfkY9gINw8Ft8ZMg==
 
-sequelize@^6.6.4:
+sequelize@^6.6.5:
   version "6.6.5"
   resolved "https://registry.yarnpkg.com/sequelize/-/sequelize-6.6.5.tgz#6f618e99f3df1fc81f28709e8a3139cec3ef1f0c"
   integrity sha512-QyRrJrDRiwuiILqTMHUA1yWOPIL12KlfmgZ3hnzQwbMvp2vJ6fzu9bYJQB+qPMosck4mBUggY4Cjoc6Et8FBIQ==
@@ -5427,7 +5427,7 @@ superagent@^6.1.0:
     readable-stream "^3.6.0"
     semver "^7.3.2"
 
-supertest@^6.1.3:
+supertest@^6.1.4:
   version "6.1.4"
   resolved "https://registry.yarnpkg.com/supertest/-/supertest-6.1.4.tgz#ea8953343e0ca316e80e975b39340934f754eb06"
   integrity sha512-giC9Zm+Bf1CZP09ciPdUyl+XlMAu6rbch79KYiYKOGcbK2R1wH8h+APul1i/3wN6RF1XfWOIF+8X1ga+7SBrug==
