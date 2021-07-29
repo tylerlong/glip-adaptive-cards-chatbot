@@ -25,10 +25,10 @@ provider:
       - Ref: PrivateSubnet2
       - Ref: PrivateSubnet3
   tags:
-    Department: dev
-    Team: dre
-    Owner: Tyler Liu
-    Environment: temp
+    DPT: Engineering
+    TM: Developer Relations Engineering
+    OWR: Tyler Liu
+    ENV: Production
     Name: glip-adaptive-cards-chatbot
   stackTags: ${self:provider.tags}
 
