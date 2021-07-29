@@ -1,4 +1,9 @@
 {
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "deploy": "yarn build && sls deploy"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "pg": "^8.7.1",
