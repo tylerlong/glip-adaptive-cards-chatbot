@@ -17,13 +17,13 @@ const handle = async (event: any) => {
         obj = JSON.parse(code);
       } catch (e) {
         await bot.sendMessage(group.id, {
-          text: 'The code your shared is not a valid JSON object',
+          text: 'The code you shared is not a valid JSON object',
         });
         return;
       }
       if (obj.type !== 'AdaptiveCard') {
         await bot.sendMessage(group.id, {
-          text: 'The JSON your shared is not for Adaptive Cards',
+          text: 'The JSON you shared is not for Adaptive Cards',
         });
         return;
       }
